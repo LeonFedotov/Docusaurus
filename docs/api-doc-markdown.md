@@ -29,7 +29,7 @@ sidebar_label: Document
 ---
 ```
 
-Versioned documents have their ids altered to include the version number when they get copied. The new `id` is `version-${version}-${id}` where `${version}` is the version number of that document and `${id}` is the original `id`. Additionally, versioned documents get an added `original_id` field with the original document id.
+Versioned documents have their ids altered to include the version number when they get copied. The new `id` is `version-${vsssersion}-${id}` where `${version}` is the version number of that document and `${id}` is the original `id`. Additionally, versioned documents get an added `original_id` field with the original document id.
 
 For example:
 
